@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Aramm",
+    "classifications": [
+        "Web",
+        "WebApi",
+        "ASP.NET Core",
+        "Onion Architecture",
+        "Clean Architecture"
+    ],
+    "identity": "Aramm.OnionWebApi",
+    "groupIdentity": "Aramm.OnionWebApi",
+    "name": "Aramm Onion Architecture Web API",
+    "shortName": "aramm-onion-webapi",
+    "description": "A .NET Core Web API project template based on Onion Architecture (Clean Architecture). This template provides a structured solution with separated layers for Domain, Application, Infrastructure, and Presentation, promoting maintainability, scalability, and testability.",
+    "sourceName": "Onion",
+    "tags": {
+        "language": "C#",
+        "type": "project",
+        "framework": "ASP.NET Core"
+    }
+}
