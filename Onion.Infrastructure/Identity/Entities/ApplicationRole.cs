@@ -2,7 +2,7 @@
 
 namespace Onion.Infrastructure.Identity.Entities;
 
-public class ApplicationUser:IdentityUser<int>
+public class ApplicationRole :IdentityRole<int>
 {
     
 }

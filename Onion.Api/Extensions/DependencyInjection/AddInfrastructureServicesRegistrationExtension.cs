@@ -32,7 +32,7 @@ public static class AddInfrastructureServicesRegistrationExtension
         
         #region Register Identity
 
-        services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+        services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
         {
             options.Password.RequireDigit = true;
             options.Password.RequireUppercase = false;
